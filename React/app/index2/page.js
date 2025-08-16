@@ -1,3 +1,4 @@
+
 import { About2 } from "@/components/About";
 import { Blog2 } from "@/components/Blog";
 import { Clients2 } from "@/components/Clients";
@@ -11,6 +12,8 @@ import ScrollTop from "@/components/ScrollTop";
 import { Services2 } from "@/components/Services";
 import { Skill2 } from "@/components/Skill";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
+
+
 
 export const metadata = {
   title: "Home Two",

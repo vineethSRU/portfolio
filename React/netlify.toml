@@ -1,7 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "out" # for Next.js static export
-  # or "build" if you're deploying a normal React app
+  publish = ".next"
 
 [[redirects]]
   from = "/*"

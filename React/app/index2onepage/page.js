@@ -1,4 +1,4 @@
-
+"use client";
 import { About2 } from '@/components/About';
 import { Services2 } from '@/components/Services';
 import { Blog2 } from "@/components/Blog";

@@ -1,6 +1,6 @@
 "use client";
-import { About2 } from '@/components/About';
-import { Services2 } from '@/components/Services';
+// import { About } from '@/components/About';
+// import { Services } from '@/components/Services';
 import { Blog2 } from "@/components/Blog";
 import { Clients2 } from "@/components/Clients";
 import { Contact2 } from "@/components/Contact";
@@ -20,7 +20,7 @@ const Index2 = () => {
       <Hero2 />
 
       {/* About Section */}
-      <About2 />
+      {/* <About2 /> */}
 
       {/* Headline Section */}
       <div className="headline-area-h2 rel z-2 py-25">

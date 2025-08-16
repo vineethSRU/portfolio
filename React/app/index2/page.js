@@ -1,5 +1,6 @@
+// ✅ Keep this as a server component (no "use client" here)
 
-import { About2 } from "@/components/About";
+// import About from '@/components/About';
 import { Blog2 } from "@/components/Blog";
 import { Clients2 } from "@/components/Clients";
 import { Contact2 } from "@/components/Contact";
@@ -9,17 +10,16 @@ import { Pricing2 } from "@/components/Pricing";
 import { Projects2 } from "@/components/Projects";
 import { Resume2 } from "@/components/Resume";
 import ScrollTop from "@/components/ScrollTop";
-import { Services2 } from "@/components/Services";
+// import Services from "@/components/Services";
 import { Skill2 } from "@/components/Skill";
 import NoxfolioLayout from "@/layout/NoxfolioLayout";
 
-
-
+// ✅ Metadata only works in server components
 export const metadata = {
   title: "Home Two",
 };
 
-const Index2 = () => {
+export default function Index2(){
   return (
     <NoxfolioLayout header={2} footer={2}>
       {/*End Hidden Sidebar */}
@@ -27,7 +27,7 @@ const Index2 = () => {
       <Hero2 />
       {/* Hero Section End */}
       {/* About Area start */}
-      <About2 />
+      {/* <About2 /> */}
       {/* About Area end */}
       {/* Headline area start */}
       <div className="headline-area-h2 rel z-2 py-25">
@@ -421,4 +421,4 @@ const Index2 = () => {
     </NoxfolioLayout>
   );
 };
-export default Index2;
+
